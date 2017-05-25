@@ -1,0 +1,241 @@
+body{
+   font-family: Montserrat,sans-serif;
+
+}
+
+.car{
+   background-color: #f9ffff;
+   color: #db1e50;
+   border: 2px solid #db1e50;
+   border-radius: 20px;
+}
+.car:focus {color: #db1e50;}
+
+.car:hover {background-color: #db1e50; color: white; border: white;transition:1s;}
+
+.car:active {background-color: #db1e50; color: white; border: white;}
+
+nav{
+   margin: 0;
+}
+
+.navbar{
+   background-color: white;
+   border-bottom: 5px solid #db1e50;
+   margin-bottom: 0;
+   
+}
+
+.navbar ul li a{
+   color: #db1e50;
+}
+
+.navbar-default .navbar-nav > li > a{
+   color: #db1e50;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+   color: white;
+   background-color: #db1e50;
+   transition 1s;
+}
+
+.navbar ul li a:hover{
+   color: white;
+   background-color: #db1e50;
+   transition: 1s;
+}
+
+.navbar-default .navbar-brand{
+   color: #db1e50;
+}
+
+.navbar-default .navbar-brand:hover{
+   color: #db1e50;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   border:1px solid #db1e50;
+}
+
+.navbar-default .navbar-toggle.collapsed {
+  border-color: #db1e50;
+}
+
+
+.titu{
+   color: white;
+   height: 100px;
+   margin-top: 30px;
+   background-image: url("images/music-all-red.jpg")
+}
+
+.titu div h2{
+   margin-top: 35px;
+}
+
+.space{
+   margin: 60px 0px;
+}
+
+img{
+   margin: auto;
+}
+
+h3{
+   color: #db1e50;
+}
+
+h4{
+   margin-left: 20px;
+   color: #db1e50;
+}
+
+h6{
+   margin-left: 20px;
+   color: #db1e50;
+}
+
+p{
+   color: #7c7c7c;
+}
+
+.music{
+   margin-top: 5px;
+}
+span{
+   color: #a0a0a0;
+}
+
+a{
+   text-decoration: none;
+   color: #7c7c7c;
+}
+
+a:hover{
+   color: #7c7c7c;
+   text-decoration: none;
+}
+
+a:focus{
+   text-decoration: none;
+}
+
+footer{
+   background-image: url("images/guitar.jpg");
+}
+
+footer ul{
+   list-style: none;
+}
+
+footer ul li{
+   text-decoration: none;
+   float: left;
+   height: 70px;
+   width: 150px;
+}
+
+footer ul li a{
+   font-size: 70%;
+   line-height: 70px;
+   text-decoration: none;
+   color: white;
+}
+
+footer ul li a:hover{
+   font-size: 70%;
+   height: 100px;
+   text-decoration: none;
+   color: white;
+}
+
+footer ul li a:focus{
+   text-decoration: none;
+}
+
+footer ul li a:active{
+   text-decoration: none;
+   color: white;
+}
+
+footer ul li a:visited{
+   text-decoration: none;
+   color: white;
+}
+
+.artist{
+   border-radius: 20px;
+}
+
+.artist-poster{
+   margin: auto;
+   max-height: 700px;
+}
+
+/*modal */
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+.modal-header{
+   border: none;
+}
+
+.modal{
+   color: #7c7c7c;
+}
+
+table{
+   padding: auto;
+   width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    font-weight: normal;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+@media (min-height: 790px){
+   .music-footer{
+      position:absolute;
+      bottom:0;
+      width:100%;
+   }
+}
+
+@media (min-width: 950px){
+   .modal-dialog  {width:80%;}
+}
+
+@media (max-width: 415px) {
+   th, td{
+      padding:2px;
+   }
+}
+
+@media (max-width: 415px) {
+   th, td{
+      padding:2px;
+   }
+}
+
+/*@media (max-height: : 790px) {
+   .music-footer{
+      width:100%;
+   }
+}*/
+
+@media (min-width: 900px) and (max-width: 1000px) {
+   .artist-poster{
+   margin: auto;
+   max-height: 450px;
+}
+
+
+
+/*.modal-dialog  {width:75%;}*/

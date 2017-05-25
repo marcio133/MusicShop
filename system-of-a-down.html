@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Loj- System of a Down</title>
+
+    <!-- Bootstrap -->
+    <link href="media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="media/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="media/slider.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
+
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default red-nav">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Loja de Música</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Minha Conta</a></li>
+              <li><a href="#">Carrinho</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outros Ritmos <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Todos as Músicas</a></li>
+                  <li><a href="#">Rock</a></li>
+                  <li><a href="#">Sertanejo</a></li>
+                  <li><a href="#">POP</a></li>
+                  <li><a href="#">Eletrônica</a></li>
+                  <li><a href="#">Clássica</a></li>
+                  <li><a href="#">Nacional</a></li>
+                  <li><a href="#">MPB</a></li>
+                  <li><a href="#">Forró</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <main>
+    	<section class="container-fluid">
+    		<div class="row">
+    			<div class="col-md-4 col-sm-6 text-left">
+    				<h3>Twice</h3>
+    				<img src="media/images/soad-poster.jpg" class="img-responsive" alt="">
+    			</div>
+    			<div class="col-md-8 col-sm-6 text-left">
+					<div class="row">
+						<h3>Álbuns</h3>
+						<hr>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 text-center">
+				            <a href="#myModal" data-toggle="modal">
+				            <img src="media/images/toxicity.jpg" alt="" class="img-responsive" width="300" height="300">
+				            <p>Toxicity</p>
+				            </a>
+				         </div>
+				         <div class="col-md-4 col-sm-6 text-center">
+				            <a href="#myModal2" data-toggle="modal">
+				            <img src="media/images/mezmerize.jpg" alt="" class="img-responsive" width="300" height="300">
+				            <p>mezmerize</p>
+				            </a>
+				         </div>
+				         <div class="col-md-4  col-md-offset-0 col-sm-6 col-sm-offset-3 text-center">
+				            <a href="#myModal3" data-toggle="modal">
+				            <img src="media/images/steal-this-album.png" alt="" class="img-responsive" width="300" height="300">
+				            <p>Steal This Album</p>
+				            </a>
+				         </div>
+					</div>
+    			</div>
+    		</div>
+    	</section>
+		<section>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <img src="media/images/toxicity.jpg" alt="" class="img-responsive">
+                  <p>Toxicity</p>
+                  <button type="button" class="btn car">Adicionar ao Carrinho</button>
+                </div>
+                <div class="col-md-6 text-center">
+                  <table>
+                    <tr>
+                      <th></th>
+                      <th>Música</th>
+                      <th>Duração</th>
+                      <th>Comprar</th>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <th>Prison Song</th>
+                      <th>3:21</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <th>Needles</th>
+                      <th>3:14</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <th>Deer Dance</th>
+                      <th>2:55</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <th>Jet Pilot</th>
+                      <th>2:06</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <th>X</th>
+                      <th>1:59</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>6</th>
+                      <th>Chop Suey!</th>
+                      <th>3:30</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>7</th>
+                      <th>Bounce</th>
+                      <th>1:54</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>8</th>
+                      <th>Forest</th>
+                      <th>4:00</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>9</th>
+                      <th>ATWA</th>
+                      <th>2:56</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>10</th>
+                      <th>Science</th>
+                      <th>2:43</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>11</th>
+                      <th>Shimmy</th>
+                      <th>1:51</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>12</th>
+                      <th>Toxicity</th>
+                      <th>3:39</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>13</th>
+                      <th>Psico</th>
+                      <th>3:46</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+                    <tr>
+                      <th>14</th>
+                      <th>Aerials</th>
+                      <th>6:11</th>
+                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+                    </tr>
+
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	    <section>
+	      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	        <div class="modal-dialog" role="document">
+	          <div class="modal-content">
+	            <div class="modal-header">
+	              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	            </div>
+	            <div class="modal-body">
+	              <div class="row">
+	                <div class="col-md-6 text-center">
+	                  <img src="media/images/mezmerize.jpg" alt="" class="img-responsive">
+	                  <p>Mezmerize</p>
+	                  <button type="button" class="btn car">Adicionar ao Carrinho</button>
+	                </div>
+	                <div class="col-md-6 text-center">
+	                  <table>
+	                    <tr>
+	                      <th></th>
+	                      <th>Música</th>
+	                      <th>Duração</th>
+	                      <th>Comprar</th>
+	                    </tr>
+	                    <tr>
+	                      <th>1</th>
+	                      <th>CHEER UP</th>
+	                      <th>3:28</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>2</th>
+	                      <th>Precious Love</th>
+	                      <th>3:51</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>3</th>
+	                      <th>Touchdown</th>
+	                      <th>3:23</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>4</th>
+	                      <th>Tuk Tok</th>
+	                      <th>3:17</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>5</th>
+	                      <th>Woohoo</th>
+	                      <th>3:22</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>6</th>
+	                      <th>My Headphones On</th>
+	                      <th>3:17</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>7</th>
+	                      <th>Im Gonna be a Star</th>
+	                      <th>3:21</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+
+	                  </table>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+	    <section>
+	      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	        <div class="modal-dialog" role="document">
+	          <div class="modal-content">
+	            <div class="modal-header">
+	              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	            </div>
+	            <div class="modal-body">
+	              <div class="row">
+	                <div class="col-md-6 text-center">
+	                  <img src="media/images/steal-this-album.png" alt="" class="img-responsive">
+	                  <p>Steal This Album</p>
+	                  <button type="button" class="btn car">Adicionar ao Carrinho</button>
+	                </div>
+	                <div class="col-md-6 text-center">
+	                  <table>
+	                    <tr>
+	                      <th></th>
+	                      <th>Música</th>
+	                      <th>Duração</th>
+	                      <th>Comprar</th>
+	                    </tr>
+	                    <tr>
+	                      <th>1</th>
+	                      <th>CHEER UP</th>
+	                      <th>3:28</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>2</th>
+	                      <th>Precious Love</th>
+	                      <th>3:51</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>3</th>
+	                      <th>Touchdown</th>
+	                      <th>3:23</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>4</th>
+	                      <th>Tuk Tok</th>
+	                      <th>3:17</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>5</th>
+	                      <th>Woohoo</th>
+	                      <th>3:22</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>6</th>
+	                      <th>My Headphones On</th>
+	                      <th>3:17</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+	                    <tr>
+	                      <th>7</th>
+	                      <th>Im Gonna be a Star</th>
+	                      <th>3:21</th>
+	                      <th><button type="button" class="btn car btn-xs">Adicionar ao Carrinho</button></th>
+	                    </tr>
+
+	                  </table>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+    </main>
+    <footer class="music-footer">
+      <section class="container-fluid">
+        <ul>
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Entre em contato</a></li>
+          <li><a href="#">Recursos</a></li>
+        </ul>
+      </section>
+    </footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
